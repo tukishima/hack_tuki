@@ -60,4 +60,10 @@ group :production do
 end
 
 gem 'devise'
+gem 'carrierwave'
 
+group :assets do
+  gem 'jquery-fileupload-rails'
+end
+
+gem 'dropzonejs-rails'
