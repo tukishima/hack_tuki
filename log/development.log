@@ -4606,3 +4606,2623 @@ ActiveRecord::RecordNotFound (Couldn't find Picture with 'id'=drop):
   Rendered /Users/rava/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
   Rendered /Users/rava/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
   [1m[36mPicture Load (1.5ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+
+
+Started GET "/" for ::1 at 2015-05-09 16:59:42 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.1/lib/active_record/migration.rb:393:in `check_pending!'
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.1/lib/active_record/migration.rb:374:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.4ms)
+
+
+Started GET "/" for ::1 at 2015-05-09 16:59:44 +0900
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.1/lib/active_record/migration.rb:393:in `check_pending!'
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.1/lib/active_record/migration.rb:374:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateImages (20150509071422)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "images" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "filename" varchar, "file" blob, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150509071422"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (34.0ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for ::1 at 2015-05-09 17:00:04 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (5.0ms)
+Completed 200 OK in 5808ms (Views: 5798.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/images.self-c14fca8ab7334e5ec516bacf4517ddeb11703ca1f77a2500dda609b9d6b2738f.css?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:00:10 +0900
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:00:19 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 104ms (Views: 96.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-05-09 17:00:25 +0900
+Processing by PicturesController#new as HTML
+  Rendered pictures/_form.html.erb (26.7ms)
+  Rendered pictures/new.html.erb within layouts/application (28.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 150ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pictures" for ::1 at 2015-05-09 17:00:42 +0900
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ftocJEBAz4+drXjuRH2XtPiiKI4TztJ9fLdLAKZ6kTIUyVbESIf6v0IL2OygxyPSYdz5ZfFkADiQOF2uagGn3g==", "picture"=>{"name"=>"tokuhiro", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fedbe1a1040 @tempfile=#<Tempfile:/var/folders/k2/3xnc4fp93s5fm9rss5r77lzh0000gn/T/RackMultipart20150509-66931-1py4bol.jpg>, @original_filename="IMG_0028_2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[picture]\"; filename=\"IMG_0028_2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Picture"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `save!' for nil:NilClass):
+  app/controllers/pictures_controller.rb:45:in `create'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.9ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:01:46 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 596ms (Views: 581.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-05-09 17:01:51 +0900
+Processing by PicturesController#new as HTML
+  Rendered pictures/_form.html.erb (68.0ms)
+  Rendered pictures/new.html.erb within layouts/application (69.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 156ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pictures" for ::1 at 2015-05-09 17:01:59 +0900
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+lJTgDA83qxmk3cY9ea4IaIv2k/YJyRyie7EC2qRUgyQQRlgOPvrnLk11xoRXAxHO1ELpDqN9jdlYdKlpupk4A==", "picture"=>{"name"=>"toku", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fbac4707ed0 @tempfile=#<Tempfile:/var/folders/k2/3xnc4fp93s5fm9rss5r77lzh0000gn/T/RackMultipart20150509-66949-1u9vvtz.jpg>, @original_filename="IMG_0028_2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[picture]\"; filename=\"IMG_0028_2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Picture"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pictures" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "toku"], ["picture", "IMG_0028_2.jpg"], ["created_at", "2015-05-09 08:01:59.876860"], ["updated_at", "2015-05-09 08:01:59.876860"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pictures/5
+Completed 302 Found in 12ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:01:59 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPicture Load (0.2ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 94ms (Views: 85.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:02:04 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 148ms (Views: 147.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:02:07 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.1ms)
+  [1m[36mPicture Load (1.4ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:09:19 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPicture Load (0.3ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 550ms (Views: 521.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:09:24 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 89ms (Views: 87.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/4" for ::1 at 2015-05-09 17:09:29 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 89ms (Views: 88.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/2" for ::1 at 2015-05-09 17:09:37 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 148ms (Views: 147.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:09:49 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 91ms (Views: 89.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/images.self-c14fca8ab7334e5ec516bacf4517ddeb11703ca1f77a2500dda609b9d6b2738f.css?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 17:09:49 +0900
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:09:51 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 96ms (Views: 94.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:10:00 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/p" for ::1 at 2015-05-09 17:10:05 +0900
+
+ActionController::RoutingError (No route matches [GET] "/p"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (65.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (110.9ms)
+
+
+Started GET "/" for ::1 at 2015-05-09 17:10:09 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-05-09 17:10:11 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered vendor/bundle/ruby/2.0.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (82.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 185ms (Views: 170.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:10:20 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 101ms (Views: 99.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:10:22 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 147ms (Views: 145.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-05-09 17:10:24 +0900
+Processing by PicturesController#new as HTML
+  Rendered pictures/_form.html.erb (3.8ms)
+  Rendered pictures/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 88ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pictures" for ::1 at 2015-05-09 17:10:51 +0900
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M4qiR/L0DqmhcwZDotD+1MSf6aTFqqVvbeM1RL6diidZmein+jM7mX7VpkFGakqyXeE4TycAdyqBbCPqcua8yw==", "picture"=>{"name"=>"test", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fc1082b03b0 @tempfile=#<Tempfile:/var/folders/k2/3xnc4fp93s5fm9rss5r77lzh0000gn/T/RackMultipart20150509-66969-1wrrstw.jpg>, @original_filename="IMG_0028_2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[picture]\"; filename=\"IMG_0028_2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Picture"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pictures" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "test"], ["picture", "IMG_0028_2.jpg"], ["created_at", "2015-05-09 08:10:51.035942"], ["updated_at", "2015-05-09 08:10:51.035942"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pictures/6
+Completed 302 Found in 10ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:10:51 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 153.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:11:06 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:11:09 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:11:16 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 145ms (Views: 143.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:11:18 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:11:20 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:11:52 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 150ms (Views: 148.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:11:54 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 83.3ms | ActiveRecord: 0.1ms)
+  [1m[36mPicture Load (1.4ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+
+
+Started GET "/pictures/5" for ::1 at 2015-05-09 17:27:13 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPicture Load (0.2ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pictures/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 581ms (Views: 554.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:27:19 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 138ms (Views: 136.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:27:38 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 95ms (Views: 93.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:29:29 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:30:44 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `each' for #<Picture:0x007fedcac9b4a8>):
+     6: </p>
+     7: 
+     8: <div id="paintings">  
+     9:   <% @picture.each do |picture| %>  
+    10:     <div class="painting">  
+    11:       <%= image_tag picture.image_url.to_s %> 
+    12:     </div>  
+  app/views/pictures/show.html.erb:9:in `_app_views_pictures_show_html_erb__3268379563574371960_70329643092920'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.7ms)
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:30:44 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `each' for #<Picture:0x007fedcaa40f28>):
+     6: </p>
+     7: 
+     8: <div id="paintings">  
+     9:   <% @picture.each do |picture| %>  
+    10:     <div class="painting">  
+    11:       <%= image_tag picture.image_url.to_s %> 
+    12:     </div>  
+  app/views/pictures/show.html.erb:9:in `_app_views_pictures_show_html_erb__3268379563574371960_70329641884060'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.2ms)
+  [1m[36mPicture Load (1.4ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:32:49 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5:   <%= @picture.name %>
+     6: </p>
+     7: 
+     8:   <% @pictures.each do |picture| %>  
+     9:     <div class="painting">  
+    10:       <%= image_tag picture.image_url.to_s %> 
+    11:     </div>  
+  app/views/pictures/show.html.erb:8:in `_app_views_pictures_show_html_erb__3268379563574371960_70329638656680'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.5ms)
+
+
+Started GET "/pictures/6" for ::1 at 2015-05-09 17:33:45 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pictures/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 87ms (Views: 85.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/images.self-c14fca8ab7334e5ec516bacf4517ddeb11703ca1f77a2500dda609b9d6b2738f.css?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 17:33:45 +0900
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:34:56 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `image_url' for #<Picture:0x007fedca3f3c88>):
+    15:       <tr>
+    16:         <td><%= picture.name %></td>
+    17:         <td><%= picture.picture %></td>
+    18:         <%= image_tag picture.image_url.to_s %> 
+    19:         <td><%= link_to 'Show', picture %></td>
+    20:         <td><%= link_to 'Edit', edit_picture_path(picture) %></td>
+    21:         <td><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  app/views/pictures/index.html.erb:18:in `block in _app_views_pictures_index_html_erb__3819440212492887849_70329638507620'
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb__3819440212492887849_70329638507620'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:34:56 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `image_url' for #<Picture:0x007fedc590a3e8>):
+    15:       <tr>
+    16:         <td><%= picture.name %></td>
+    17:         <td><%= picture.picture %></td>
+    18:         <%= image_tag picture.image_url.to_s %> 
+    19:         <td><%= link_to 'Show', picture %></td>
+    20:         <td><%= link_to 'Edit', edit_picture_path(picture) %></td>
+    21:         <td><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  app/views/pictures/index.html.erb:18:in `block in _app_views_pictures_index_html_erb__3819440212492887849_70329615100380'
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb__3819440212492887849_70329615100380'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.6ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:37:30 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `image' for nil:NilClass):
+    15:       <tr>
+    16:         <td><%= picture.name %></td>
+    17:         <td><%= picture.picture %></td>
+    18:         <%= image_tag @picture.image.url %> 
+    19:         <td><%= link_to 'Show', picture %></td>
+    20:         <td><%= link_to 'Edit', edit_picture_path(picture) %></td>
+    21:         <td><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  app/views/pictures/index.html.erb:18:in `block in _app_views_pictures_index_html_erb__3819440212492887849_70329586745860'
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb__3819440212492887849_70329586745860'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.4ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:39:26 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `image' for #<Picture::ActiveRecord_Relation:0x007fedca8ca540>):
+    16:         <td><%= picture.name %></td>
+    17:         <td><%= picture.picture %></td>
+    18:         <div class="thumbnail">
+    19:         <%= image_tag @pictures.image.url %> 
+    20:         </div>
+    21:         <td><%= link_to 'Show', picture %></td>
+    22:         <td><%= link_to 'Edit', edit_picture_path(picture) %></td>
+  app/views/pictures/index.html.erb:19:in `block in _app_views_pictures_index_html_erb__3819440212492887849_70329641092400'
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb__3819440212492887849_70329641092400'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.7ms)
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures"
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:40:16 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 92ms (Views: 91.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/images.self-c14fca8ab7334e5ec516bacf4517ddeb11703ca1f77a2500dda609b9d6b2738f.css?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 17:40:16 +0900
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:40:32 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 94ms (Views: 92.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/images.self-c14fca8ab7334e5ec516bacf4517ddeb11703ca1f77a2500dda609b9d6b2738f.css?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 17:40:32 +0900
+
+
+Started GET "/pictures/new" for ::1 at 2015-05-09 17:44:44 +0900
+Processing by PicturesController#new as HTML
+  Rendered pictures/_form.html.erb (93.7ms)
+  Rendered pictures/new.html.erb within layouts/application (96.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 190ms (Views: 188.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pictures" for ::1 at 2015-05-09 17:44:55 +0900
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oskMhONZt5Q0s8lgJtfn+IJHZtahJxdCuqOOY3RNhujI2kZk656CpOsVaWLCbVOeGzm3PUONxQdWLJjNuDawBA==", "picture"=>{"name"=>"a", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fedca552f70 @tempfile=#<Tempfile:/var/folders/k2/3xnc4fp93s5fm9rss5r77lzh0000gn/T/RackMultipart20150509-66999-1rtqvsa.jpg>, @original_filename="IMG_0028_2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[picture]\"; filename=\"IMG_0028_2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Picture"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "pictures" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a"], ["picture", "IMG_0028_2.jpg"], ["created_at", "2015-05-09 08:44:55.482588"], ["updated_at", "2015-05-09 08:44:55.482588"]]
+  [1m[35m (2.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/pictures/7
+Completed 302 Found in 15ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/pictures/7" for ::1 at 2015-05-09 17:44:55 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered pictures/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 156ms (Views: 154.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 17:44:57 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 94ms (Views: 93.1ms | ActiveRecord: 0.2ms)
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:03:53 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 170ms (Views: 168.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/images.self-c14fca8ab7334e5ec516bacf4517ddeb11703ca1f77a2500dda609b9d6b2738f.css?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 18:03:54 +0900
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:17:26 +0900
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- RMagick (You may need to install the rmagick gem)):
+  app/uploaders/picture_uploader.rb:6:in `include'
+  app/uploaders/picture_uploader.rb:6:in `<class:PictureUploader>'
+  app/uploaders/picture_uploader.rb:3:in `<top (required)>'
+  app/models/picture.rb:2:in `<class:Picture>'
+  app/models/picture.rb:1:in `<top (required)>'
+  app/controllers/pictures_controller.rb:10:in `index'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.7ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:22:00 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    17:         <td><%= picture.picture %></td>
+    18:         <div class="thumbnail">
+    19:         <%= image_tag picture.picture %>
+    20:         <%= image_tag picture.picture(:thumb) %>
+    21:          
+    22:         </div>
+    23:         <td><%= link_to 'Show', picture %></td>
+  app/views/pictures/index.html.erb:20:in `block in _app_views_pictures_index_html_erb__848964665895061860_70290030168560'
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb__848964665895061860_70290030168560'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.6ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:23:11 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `picture' for #<#<Class:0x007fdb577c94f0>:0x007fdb58d41e90>):
+    17:         <td><%= picture.picture %></td>
+    18:         <div class="thumbnail">
+    19:         <%= image_tag picture.picture %>
+    20:         <%= image_tag picture(:thumb).to_s %>
+    21:          
+    22:         </div>
+    23:         <td><%= link_to 'Show', picture %></td>
+  app/views/pictures/index.html.erb:20:in `block in _app_views_pictures_index_html_erb__848964665895061860_70290032428380'
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb__848964665895061860_70290032428380'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:24:00 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    17:         <td><%= picture.picture %></td>
+    18:         <div class="thumbnail">
+    19:         <%= image_tag picture.picture %>
+    20:         <%= image_tag picture.picture(:thumb) %>
+    21:          
+    22:         </div>
+    23:         <td><%= link_to 'Show', picture %></td>
+  app/views/pictures/index.html.erb:20:in `block in _app_views_pictures_index_html_erb__848964665895061860_70290034099520'
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb__848964665895061860_70290034099520'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.7ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:25:25 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (5.3ms)
+Completed 200 OK in 3248ms (Views: 3247.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/images.self-c14fca8ab7334e5ec516bacf4517ddeb11703ca1f77a2500dda609b9d6b2738f.css?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 18:25:28 +0900
+
+
+Started GET "/uploads/picture/picture/2/thumb_miisuke7772000-img600x388-1383218320a2q2ik3484.jpg" for ::1 at 2015-05-09 18:25:28 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/2/thumb_miisuke7772000-img600x388-1383218320a2q2ik3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.4ms)
+
+
+Started GET "/uploads/picture/picture/3/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg" for ::1 at 2015-05-09 18:25:28 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/3/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.1ms)
+
+
+Started GET "/uploads/picture/picture/4/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg" for ::1 at 2015-05-09 18:25:28 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/4/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.9ms)
+
+
+Started GET "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:25:28 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.5ms)
+
+
+Started GET "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:25:29 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.0ms)
+
+
+Started GET "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:25:29 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.5ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-05-09 18:25:39 +0900
+Processing by PicturesController#new as HTML
+  Rendered pictures/_form.html.erb (18.8ms)
+  Rendered pictures/new.html.erb within layouts/application (21.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 108ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pictures" for ::1 at 2015-05-09 18:25:48 +0900
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c+Q+q99ylKe6v2o50WtA2jLOliR0C2IQ0WjpZVFrR0IZ93RL17Whl2UZyjs10fS8q7BHz5ahsFU95//LnRBxrg==", "picture"=>{"name"=>"t", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdb573c13a8 @tempfile=#<Tempfile:/var/folders/k2/3xnc4fp93s5fm9rss5r77lzh0000gn/T/RackMultipart20150509-68947-1mhrppx.jpg>, @original_filename="IMG_0028_2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[picture]\"; filename=\"IMG_0028_2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Picture"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "pictures" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "t"], ["picture", "IMG_0028_2.jpg"], ["created_at", "2015-05-09 09:25:49.082120"], ["updated_at", "2015-05-09 09:25:49.082120"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/pictures/8
+Completed 302 Found in 148ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/pictures/8" for ::1 at 2015-05-09 18:25:49 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPicture Load (0.3ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered pictures/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 111ms (Views: 101.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:25:51 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/uploads/picture/picture/2/thumb_miisuke7772000-img600x388-1383218320a2q2ik3484.jpg" for ::1 at 2015-05-09 18:25:51 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/2/thumb_miisuke7772000-img600x388-1383218320a2q2ik3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (71.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (101.3ms)
+
+
+Started GET "/uploads/picture/picture/3/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg" for ::1 at 2015-05-09 18:25:52 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/3/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.8ms)
+
+
+Started GET "/uploads/picture/picture/4/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg" for ::1 at 2015-05-09 18:25:52 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/4/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.3ms)
+
+
+Started GET "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:25:52 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.8ms)
+
+
+Started GET "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:25:52 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.2ms)
+
+
+Started GET "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:25:52 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.3ms)
+
+
+Started DELETE "/pictures/2" for ::1 at 2015-05-09 18:26:00 +0900
+Processing by PicturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Z1m5gY4xOFGQpqjQsnjL+kmwJcqawywDIdwaH1PQtiANSvNhhvYNYU8ACNJWwn+c0M70IXhp/kbNUwyxn6uAzA==", "id"=>"2"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "pictures" WHERE "pictures"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 9ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:26:00 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.3ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 167ms (Views: 165.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:01 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.2ms)
+
+
+Started GET "/uploads/picture/picture/4/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg" for ::1 at 2015-05-09 18:26:01 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/4/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.1ms)
+
+
+Started GET "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:01 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.2ms)
+
+
+Started GET "/uploads/picture/picture/3/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg" for ::1 at 2015-05-09 18:26:01 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/3/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.2ms)
+
+
+Started GET "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:01 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.7ms)
+
+
+Started DELETE "/pictures/3" for ::1 at 2015-05-09 18:26:06 +0900
+Processing by PicturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7/oBVRiWQpdUpYVGkgmYw7JKx+I/PC+HkBSpfL3kFWiF6Uu1EFF3p4sDJUR2syylKzQWCd2W/cJ8m7/ScZ8jhA==", "id"=>"3"}
+  [1m[35mPicture Load (0.2ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "pictures" WHERE "pictures"."id" = ?  [["id", 3]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 7ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:26:06 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 102ms (Views: 101.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/uploads/picture/picture/4/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg" for ::1 at 2015-05-09 18:26:06 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/4/thumb_miisuke7772000-img600x487-1383218319uc262b3484.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.0ms)
+
+
+Started GET "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:06 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.1ms)
+
+
+Started GET "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:06 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.1ms)
+
+
+Started GET "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:06 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.3ms)
+
+
+Started DELETE "/pictures/4" for ::1 at 2015-05-09 18:26:09 +0900
+Processing by PicturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Idx71BhLKaI5JrW1J5oFfusLXzy7+72LFbFQMM7PvANLzzE0EIwckuaAFbfDILEYcnWO11lRb875PkaeArSK7w==", "id"=>"4"}
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "pictures" WHERE "pictures"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 9ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:26:09 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 124ms (Views: 122.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:09 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/5/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.7ms)
+
+
+Started GET "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:09 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.2ms)
+
+
+Started GET "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:09 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (67.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.7ms)
+
+
+Started DELETE "/pictures/5" for ::1 at 2015-05-09 18:26:13 +0900
+Processing by PicturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oYEK9VbFED3aOb+BfyFUWhjbgT2l2KfpZfWPgFq0ksjLkkAVXgIlDQWfH4Obm+A8gaVQ1kdydayJepkuls+kJA==", "id"=>"5"}
+  [1m[35mPicture Load (0.2ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "pictures" WHERE "pictures"."id" = ?  [["id", 5]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 9ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:26:13 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.3ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 102ms (Views: 100.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:13 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/6/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.8ms)
+
+
+Started GET "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:13 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.2ms)
+
+
+Started DELETE "/pictures/6" for ::1 at 2015-05-09 18:26:15 +0900
+Processing by PicturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aiqUfUUfdio0Jdq6nf54N656UY560sAf/VeWhx/oY98AOd6dTdhDGuuDerh5RMxRNwSAZZh4EloR2IAp05NVMw==", "id"=>"6"}
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "pictures" WHERE "pictures"."id" = ?[0m  [["id", 6]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 9ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:26:15 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 214ms (Views: 213.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg" for ::1 at 2015-05-09 18:26:15 +0900
+
+ActionController::RoutingError (No route matches [GET] "/uploads/picture/picture/7/thumb_IMG_0028_2.jpg"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/static.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Toku/.rvm/rubies/ruby-2.0.0-p645/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.4ms)
+
+
+Started DELETE "/pictures/7" for ::1 at 2015-05-09 18:26:18 +0900
+Processing by PicturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1l+wS7VnVpci+3GLpl1yCswdMG+uo6OwQpygcyWAVaK8TPqrvaBjp/1d0YlC58ZsVWPhhEwJcfWuE7bd6ftjTg==", "id"=>"7"}
+  [1m[35mPicture Load (0.2ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "pictures" WHERE "pictures"."id" = ?  [["id", 7]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 8ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:26:18 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-05-09 18:26:43 +0900
+Processing by PicturesController#new as HTML
+  Rendered pictures/_form.html.erb (1.9ms)
+  Rendered pictures/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 165ms (Views: 154.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/pictures" for ::1 at 2015-05-09 18:26:51 +0900
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kMSLmJ0h/q5WsEO6omuke2qTje3jpiIElbAN/FCxPmL618F4lebLnokW47hG0RAd8+1cBgEM8EF5PxtSnMoIjg==", "picture"=>{"name"=>"a", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdb5603d728 @tempfile=#<Tempfile:/var/folders/k2/3xnc4fp93s5fm9rss5r77lzh0000gn/T/RackMultipart20150509-68947-155gne2.jpg>, @original_filename="IMG_0028_2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[picture]\"; filename=\"IMG_0028_2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Picture"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pictures" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "a"], ["picture", "IMG_0028_2.jpg"], ["created_at", "2015-05-09 09:26:51.442487"], ["updated_at", "2015-05-09 09:26:51.442487"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pictures/9
+Completed 302 Found in 121ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/pictures/9" for ::1 at 2015-05-09 18:26:51 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPicture Load (0.2ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 90ms (Views: 87.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:26:53 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:32:17 +0900
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/images.self-c14fca8ab7334e5ec516bacf4517ddeb11703ca1f77a2500dda609b9d6b2738f.css?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 18:32:17 +0900
+
+
+Started GET "/" for ::1 at 2015-05-09 18:35:34 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:35:40 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 154ms (Views: 152.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-05-09 18:35:43 +0900
+Processing by PicturesController#new as HTML
+  Rendered pictures/_form.html.erb (1.7ms)
+  Rendered pictures/new.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:40:21 +0900
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 256ms (Views: 248.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.self-3aacc7c644fc2d8436755aa7d61895b413537ee15765ce39c457ae8e3a09144b.css?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/dropzone.self-196e22c609cd0ea17f6e3e241edfd2b54697dcc033446d2898d80bfec879da86.css?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/scaffolds.self-877d2cfb525dba4580ce063c55ba01bef40496d308b43379f5f12f2fec26f5f6.css?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/pictures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/images.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/dropzone.self-b966f28ee4cd5d346358386067222b7ad4cebc8e9a0096b9e45a313a4d31888f.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/pictures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-05-09 18:40:21 +0900
+
+
+Started GET "/pictures/8" for ::1 at 2015-05-09 18:40:25 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mPicture Load (0.2ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered pictures/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 87ms (Views: 84.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/9" for ::1 at 2015-05-09 18:40:28 +0900
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered pictures/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 86ms (Views: 84.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/9/edit" for ::1 at 2015-05-09 18:40:33 +0900
+Processing by PicturesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered pictures/_form.html.erb (2.1ms)
+  Rendered pictures/edit.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 161ms (Views: 160.1ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/pictures/8" for ::1 at 2015-05-09 18:40:39 +0900
+Processing by PicturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/FVPuavtL9oVJ/HsZh59QSrnFcXcwtXWK+WiZ1bmGhOWRgVZoyoa6sqBUe6CpMkns5nELj5oB5PHarTJmp0s/w==", "id"=>"8"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "pictures" WHERE "pictures"."id" = ?[0m  [["id", 8]]
+  [1m[35m (4.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 13ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/pictures" for ::1 at 2015-05-09 18:40:39 +0900
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-05-09 18:42:26 +0900
+Processing by PicturesController#new as HTML
+  Rendered pictures/_form.html.erb (1.6ms)
+  Rendered pictures/new.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 121ms (Views: 119.7ms | ActiveRecord: 0.0ms)

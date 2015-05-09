@@ -67,3 +67,7 @@ group :assets do
 end
 
 gem 'dropzonejs-rails'
+
+gem 'rmagick', require: 'rmagick'
+
+
