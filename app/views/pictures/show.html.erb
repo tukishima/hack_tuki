@@ -3,6 +3,8 @@
 <p>
   <strong>Name:</strong>
   <%= @picture.name %>
+  <br>
+  <%= image_tag @picture.picture %>
 </p>
 
 <%= link_to 'Edit', edit_picture_path(@picture) %> |
