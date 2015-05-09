@@ -1,4 +1,5 @@
-<%= form_for(@picture) do |f| %>
+
+<%= form_for @picture, method: :post, html: {id: 'picture-dropzone', class: 'dropzone form'} do |f| %>
   <% if @picture.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@picture.errors.count, "error") %> prohibited this picture from being saved:</h2>
@@ -11,13 +12,8 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :picture %><br>
-    <%= f.file_field :picture %>
+  <div class="fallback">
+    <%= f.file_field :picture, multiple: true%>
   </div>
   <div class="actions">
     <%= f.submit %>

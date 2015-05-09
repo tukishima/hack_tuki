@@ -40,7 +40,8 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
- #gem 'byebug'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   #gem 'web-console', '~> 2.0'
@@ -69,5 +70,4 @@ end
 gem 'dropzonejs-rails'
 
 gem 'rmagick', require: 'rmagick'
-
 

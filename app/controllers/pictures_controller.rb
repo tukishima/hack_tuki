@@ -26,12 +26,41 @@ class PicturesController < ApplicationController
 
   # POST /pictures
   # POST /pictures.json
-  def create
-    @picture = Picture.new(picture_params)
-    #@media = Media.new(picture params[:file])
 
+  # def create
+  #   @picture = Picture.new(picture_params)
+  #   respond_to do |format|
+  #     if @picture.save
+  #       format.html { redirect_to @picture, notice: 'Picture was successfully created.' }
+  #       format.json { render :show, status: :created, location: @picture }
+  #     else
+  #       format.html { render :new }
+  #       format.json { render json: @picture.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
+
+  def create
+ #   @picture = Picture.new(picture_params)
+  #  binding.pry
     respond_to do |format|
-      if @picture.save
+      if true
+        p "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+        # @picture.picture = picutre_params[:picture]
+        # @picture.save
+        
+        params[:picture]['picture'].each {|param|
+          p "================="
+          p param
+
+          @picture = Picture.new(picture_params)
+          p @picture.class
+          p @picture.picture.class
+          @picture.picture = param
+          @picture.save
+          p "================="
+        }
+        
         format.html { redirect_to @picture, notice: 'Picture was successfully created.' }
         format.json { render :show, status: :created, location: @picture }
       else
@@ -40,6 +69,24 @@ class PicturesController < ApplicationController
       end
     end
   end
+
+ # def create
+ #  p "--------------"
+ #  p params[:file]
+ #  p "--------------"
+ #    @picture = Picture.new(picture: params[:file])
+ #    if @picture.save
+ #      respond_to do |format|
+ #        format.html { redirect_to @picture, notice: 'Picture was successfully updated.' }
+ #        format.json { render :show, status: :ok, location: @picture }
+ #      end
+ #    else
+ #      respond_to do |format|
+ #        format.html { render :new }
+ #        format.json { render json: @picture.errors, status: :unprocessable_entity }
+ #      end
+ #    end
+ #  end
 
   # PATCH/PUT /pictures/1
   # PATCH/PUT /pictures/1.json
