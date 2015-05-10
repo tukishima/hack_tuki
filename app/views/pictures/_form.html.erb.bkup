@@ -1,0 +1,9 @@
+
+<script type="text/javascript">
+var Dropzone = require("dropzone");
+var myDropzone = new Dropzone("div#myId", { url: "/pictures/create"});
+
+</script>
+
+<div id="myId">
+</div>
