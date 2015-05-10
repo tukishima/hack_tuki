@@ -1,12 +1,12 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to "SONAP", root_path, id: "logo" %>
+    <%= link_to "SONAP", root_path, id: "logo" %>
       <nav>
         <ul class="nav navbar-nav pull-right">
          <li><%= link_to "Home",    root_path %></li>
          <li><%= link_to "Help",    help_path %></li>
-          <li><% if user_signed_in? %> <%= link_to "logged in as " + current_user.email, '/pictures' %>. <% end %></li>
+          <li><% if user_signed_in? %> <%= link_to "logged in as " + current_user.email, '/pictures' %><% end %></li>
           <li>
             <% if user_signed_in? %>
             <%= link_to "Log out", destroy_user_session_path, :method => :delete %>

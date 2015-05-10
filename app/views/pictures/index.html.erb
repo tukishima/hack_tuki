@@ -1,37 +1,29 @@
 
-<p id="notice"><%= notice %></p>
-
 <script type="text/javascript" src="http://webos-goodies.googlecode.com/svn/trunk/products/jslib/draggable_grid/draggable_grid.js"></script>
 
-<%= link_to image_tag('add.jpg'), '/pictures/new' %>
+<p id="notice"><%= notice %></p>
 
+<br>
+<p>
+<%= link_to image_tag('add.jpg', alt: "Rails", align: "left"), '/pictures/new' -%>
 <h1>My Pictures</h1>
-
+</p>
 <style type="text/css">
   .draggable {
     display: inline-block;
     vertical-align: top;
     width: 202px;
-    height: 222px;
+    height: 202px;
     zoom: 1;
     *display: inline;
-    border: solid 1px ;
   }
-  .handle {
-    height: 20px;
-    background-color: #ccc;
-  }
-</style>
+  </style>
 
 <div id="grid" >
   <% @pictures.each do |picture| %>
   <div class="draggable">
-    <div class="handle"></div>
-    Date: <%= picture.created_at.to_s.split(' ').first + ' ' + picture.created_at.to_s.split(' ').second  %>
+    <%= picture.created_at.to_s.split(' ').first  %>
     <div id="no-turbolinks" data-no-turbolink><%= link_to image_tag(picture.picture.url(:thumb)), picture.picture.url(:browse) ,:rel => "lightbox[0]"%></div>
-    <%= link_to 'Original', picture %>
-    <%= link_to 'Edit', edit_picture_path(picture) %>
-    <%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %>
   </div>
   <% end %>
 </div>
@@ -39,11 +31,6 @@
 <script type="text/javascript">
   new DraggableGrid('grid',  { handleClass: 'handle' });
 </script>
-
-<br>
-<%= link_to 'New Picture', new_picture_path %>
-<br>
-<br>
 
 
 
