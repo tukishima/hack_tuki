@@ -1,14 +1,23 @@
 <div class="center hero-unit">
 
-  <h1>Welcome to SONAP</h1>
+	<div id="overlay" style="position:relative; marginLeft: 0px">
 
-  <h2>
-    This is the home page for the
-    <a href="http://railstutorial.jp/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
+		<p class="resizeimage">
+			<%= image_tag("home.jpg", alt: "Rails") %>
+		</p>
+		<div id="welcome_msg" style="position:absolute; right: 60px; top: 190px">
 
-  <%= link_to "Sign up now!", new_user_registration_path, class: "btn btn-large btn-primary" %>
+			<h1>Welcome to SONAP</h1>
+			<h2>
+				This is the home page for the
+				<a href="http://railstutorial.jp/">Ruby on Rails Tutorial</a>
+				sample application.
+			</h2>
+
+			<%= link_to "Sign up now!", new_user_registration_path, class: "btn btn-large btn-primary" %>
+		</div>
+	</div>
+
 </div>
 
 <%= link_to image_tag("", alt: "Rails"), 'http://rubyonrails.org/' %>
