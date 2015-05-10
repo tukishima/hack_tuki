@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   resources :pictures
   devise_for :users
-  get 'users/new'
+#  get 'users/new'
 
-  match '/signup',   to: 'users#new',            via: 'get'
+#  match '/signup',   to: 'users#new',            via: 'get'
   match '/help',    to: 'static_pages#help',    via: 'get'
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+  #  resources :products
 
   # Example resource route with options:
   #   resources :products do

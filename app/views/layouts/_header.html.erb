@@ -4,9 +4,16 @@
       <%= link_to "SONAP", root_path, id: "logo" %>
       <nav>
         <ul class="nav navbar-nav pull-right">
-          <li><%= link_to "Home",    root_path %></li>
-          <li><%= link_to "Help",    help_path %></li>
-          <li><%= link_to "Log in", new_user_session_path %></li>
+         <li><%= link_to "Home",    root_path %></li>
+         <li><%= link_to "Help",    help_path %></li>
+          <li><% if user_signed_in? %> <%= link_to "logged in as " + current_user.email, '/pictures' %>. <% end %></li>
+          <li>
+            <% if user_signed_in? %>
+            <%= link_to "Log out", destroy_user_session_path, :method => :delete %>
+            <% else %>
+            <%= link_to "Log in", new_user_session_path %>
+            <% end %>
+          </li>
         </ul>
       </nav>
     </div>
