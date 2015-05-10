@@ -10,7 +10,7 @@
     display: inline-block;
     vertical-align: top;
     width: 202px;
-    height: 220px;
+    height: 222px;
     zoom: 1;
     *display: inline;
     border: solid 1px ;
@@ -28,7 +28,7 @@
     <div class="handle"></div>
     Date: <%= picture.created_at.to_s.split(' ').first + ' ' + picture.created_at.to_s.split(' ').second  %>
    <!-- <%= image_tag picture.picture.url(:thumb) %> -->
-    <%= link_to image_tag(picture.picture.url(:thumb)), picture.picture.url ,:rel => "lightbox[0]"%>
+    <%= link_to image_tag(picture.picture.url(:thumb)), picture.picture.url(:browse) ,:rel => "lightbox[0]"%>
     <%= link_to 'Original', picture %>
     <%= link_to 'Edit', edit_picture_path(picture) %>
     <%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %>
@@ -62,6 +62,7 @@
   </tbody>
 </table>
 -->
+
 <br>
 <%= link_to 'New Picture', new_picture_path %>
 <br>
