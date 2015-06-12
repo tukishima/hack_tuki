@@ -8,6 +8,7 @@ class PicturesController < ApplicationController
   # GET /pictures.json
   def index
     @pictures = Picture.all
+    @picture = Picture.new
   end
 
   # GET /pictures/1
@@ -28,15 +29,24 @@ class PicturesController < ApplicationController
   # POST /pictures.json 
 
   def create
-    p "@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-    p params
-    @picture = Picture.new(picture: params[:file])
+    #Saving to Amazon S3
+    @picture = Picture.new(picture: params[:file], backup: params[:file])
+    
+    #NOT saving to Amazon S3
+    # @picture = Picture.new(picture: params[:file])
+
     if @picture.save!
+      p "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+      p @picture
+      p @picture.picture.file
       respond_to do |format|
         format.json{ render :json => @picture }
       end
     end
   end
+
+
+
 
  #  def create
  # #   @picture = Picture.new(picture_params)

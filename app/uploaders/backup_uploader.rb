@@ -1,16 +1,14 @@
 # encoding: utf-8
 
-class PictureUploader < CarrierWave::Uploader::Base
-
-  include Manipulator
+class BackupUploader < CarrierWave::Uploader::Base
 
   # Include RMagick or MiniMagick support:
-  include CarrierWave::RMagick
+  # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
-  storage :file
-  # storage :fog
+  # storage :file
+  storage :fog
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
@@ -34,23 +32,10 @@ class PictureUploader < CarrierWave::Uploader::Base
   # end
 
   # Create different versions of your uploaded files:
-  version :thumb do
-    process :resize_to_fill => [200, 150]
-  end
+  # version :thumb do
+  #   process :resize_to_fit => [50, 50]
+  # end
 
-  version :browse do
-    process :resize_to_fit => [1024, 1024]
-  end
-
-  version :pora, from_version: :browse do
-    process :verPora
-  end
-
-  def verPora()
-    manipulate! do |img| 
-      polaroidImage(img)
-    end
-  end
   # Add a white list of extensions which are allowed to be uploaded.
   # For images you might use something like this:
   # def extension_white_list
